@@ -3,9 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Semantic HTML | Contact Us | FreeCodeCamp</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./index.html#about">About LTS</a>
+        </li>
+        <li>
+          <a href="./index.html#menu">Our Menu</a>
+        </li>
+        <li>
+          <a href="./store.html">Store Hours</a>
+        </li>
+      </ul>
+    </nav>
+    <figure>
+      <img src="./images/montatip-lilitsanong-iU26ZSJh9yw-unsplash.jpg" alt="Little Taco" width="400px" height="300px">
+      <figcaption>The Little Taco Shop Tacos</figcaption>
+    </figure>
+  </header>
+  <article>
+    <h2>Our Contact Form</h2>
+    <form action="">
+      <fieldset>
+        <legend>Send us a message</legend>
+        <p>
+          <label for="firstName">Name: </label>
+          <input type="text" name="firstName" id="firstName" placeholder="Enter your first name">
+        </p>
+        <p>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+        </p>
+        <p>
+          <label for="message">Your Message: </label><br>
+          <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+        </p>
+      </fieldset>
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+    </form>
+  </article>
+  <article>
+    <h2>Our Location</h2>
+    <address>
+      123 Taco Street<br>
+      Tacoburg, TX 78501
+      <p>
+        <label for="phone">Phone: </label>
+        <a href="tel:+1234567890" id="phone">+(254) 712-567-890</a>
+      </p>
+    </address>
+  </article>
+  <p>
+    <a href="#top">Back to top</a>
+  </p>
 </body>
 </html>
